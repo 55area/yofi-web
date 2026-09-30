@@ -122,9 +122,6 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
 # pnpm
 .pnpm-store
 
@@ -141,3 +138,22 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# VS Code files
+.vscode/
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# AI development artifacts: skills, context, prompts, instructions, and agent-specific files
+.ai/
+.ai-context/
+.context/
+.vibes/
+.agents/
+.skills/
+.cursor/
+.cursorrules
+.windsurfrules
+.opencode/
+openspec/
+skills-lock.json
